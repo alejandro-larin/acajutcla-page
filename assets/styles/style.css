@@ -4,14 +4,15 @@
 }
 
 body {
-  height: 100vh;
+  height: 100%;
 }
 header {
   background-image: url(../img/background-header.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 60%;
+  height: 500px;
+  box-shadow: 1px 1px 25px gray;
 }
 nav {
   /* From https://css.glass */
