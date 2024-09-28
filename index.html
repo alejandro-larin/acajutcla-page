@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,7 +12,119 @@
       rel="stylesheet"
     />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="icon" href="assets/img/logo-tour.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/assets/styles/style.css" />
     <title>El salvador acajutla destinos | Turismo | El Salvador</title>
   </head>
-  <body></body>
+  <body class="bg-dark">
+    <header class="d-flex flex-column">
+      <nav class="navbar navbar-expand-lg sticky-top" data-bs-theme="dark">
+        <div class="container-fluid">
+          <!-- Logo -->
+          <a class="navbar-brand" href="#">Logo</a>
+
+          <!-- Botón de navegación para pantallas pequeñas -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Contenido del navbar -->
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarNav"
+          >
+            <!-- Menú de navegación centrado -->
+            <ul class="navbar-nav gap-3 fs-5 mt-lg-0 mt-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Recorrido</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Alojamiento</a>
+              </li>
+            </ul>
+
+            <!-- Botón de Iniciar Sesión visible solo en pantallas pequeñas -->
+            <div class="d-lg-none"></div>
+          </div>
+
+          <!-- Botón de Iniciar Sesión visible solo en pantallas grandes -->
+          <div class="d-none d-lg-flex"></div>
+        </div>
+      </nav>
+
+      <div class="row flex-grow-1 w-100">
+        <div class="col-12 col-lg-6"></div>
+        <div
+          class="col-12 col-lg-6 text-white d-flex flex-column justify-content-center"
+        >
+          <h1 class="text-center text-lg-start">
+            Descubre Acajutla: Donde la Historia y el Mar se Encuentran
+          </h1>
+          <div class="row mt-5">
+            <div
+              class="col d-flex flex-column align-items-lg-start align-items-center"
+            >
+              <button
+                class="btn btn-outline-light btn-lg"
+                style="width: 75%; height: 100%"
+              >
+                Contactanos!
+              </button>
+            </div>
+            <div
+              class="col d-flex flex-column align-items-lg-start align-items-center"
+            >
+              <button
+                class="btn btn-dark btn-lg"
+                style="width: 75%; height: 100%"
+              >
+                Sobre Nosotros!
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container-fluid">
+      <section class="row text-white mt-5">
+        <div class="col-12 col-lg-6 d-flex justify-content-center mt-lg-0 mb-4">
+          <img
+            src="assets/img/icons/beach-color.png"
+            class=""
+            style="width: 200px"
+            alt=""
+          />
+        </div>
+        <div class="col-12 col-lg-6 text-center">
+          <h2 class="">Profesionales en guías en atención a Cruceristas</h2>
+          <p class="">
+            En el marco de la estrategia regional "Ruta Mesoamericana",
+            impulsada por las autoridades portuarias y turísticas de la región
+            junto al Ministerio de Turismo de El Salvador (MITUR), se busca
+            fortalecer la integración y el desarrollo sostenible. Esta
+            iniciativa conjunta tiene como objetivo promover el turismo, mejorar
+            la infraestructura portuaria y fomentar la conectividad entre los
+            países de Mesoamérica, destacando su riqueza cultural y natural.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+
+    <script src="assets/scripts/navbar.js"></script>
+  </body>
 </html>
